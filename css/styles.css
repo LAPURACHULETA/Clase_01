@@ -1,0 +1,50 @@
+/********************** Tag Selector *************************/
+body{
+    background-color: #CD5888;
+}
+hr{
+    height: 10px;
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;
+    width: 95%;
+}
+h1{
+    color: whitesmoke;
+}
+h2{
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+}
+li{
+    color: whitesmoke;
+}
+td{
+    color: whitesmoke;
+}
+th{
+    color: whitesmoke;
+}
+a{
+    color: whitesmoke;;
+}
+/******************* Class selection *********************/
+
+.chido{
+    background-color: black;
+}
+.what{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: pink;
+}
+/******************** ID Slectionn **********************/
+/*#boss{
+
+    background-color: aqua;
+}*/
