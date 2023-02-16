@@ -1,19 +1,29 @@
 /********************** Tag Selector *************************/
 body{
-    background-color: #CD5888;
+    background-color: #913175;
 }
 hr{
-    height: 10px;
-    background-color: white;
-    border-style: none;
-    border-radius: 10px;
-    width: 95%;
+    height: 5px;
+    background-color: #20262E;
+    border-style: dotted;
+    border-radius: 5px;
+    width: thick;
+
+    /********* intento de interlineado con puntos ***************/
+    
+     /*width: thick;
+     height: 5px;
+     -moz-border-radius: 10%;
+     -webkit-border-radius: 10%;
+     border-style: dotted;
+     border-radius: 100%;*/
 }
 h1{
-    color: whitesmoke;
+    color: #20262E;
+    
 }
 h2{
-    color: whitesmoke;
+    color: #20262E;
 }
 h3{
     color: whitesmoke;
@@ -31,20 +41,106 @@ th{
     color: whitesmoke;
 }
 a{
-    color: whitesmoke;;
+    color: #c2839d;;
 }
+
 /******************* Class selection *********************/
 
 .chido{
-    background-color: black;
+    background-color: #CD5888;
 }
 .what{
     border-style: dashed;
     border-width: 2px;
     border-color: pink;
 }
+.tableExperienciaTrabajo{
+    border-style: dotted;
+    border-color: #96D4D4;
+    
+}
+.Skills{
+    border-style: dotted;
+    border-color: #96D4D4;
+    background-color: #c2839d;
+}
+
 /******************** ID Slectionn **********************/
 /*#boss{
 
+    
     background-color: aqua;
 }*/
+
+
+/******************* Otra forma de acomodar las peliculas **********/
+
+/*
+<table cellspacing="5"> <!--tabla/cellspacing espacio entre filas-->
+            <thead>
+                <tr> <!--fila-->
+                    <th>Titulo</th><!--celdas-->
+                    <th>Año</th>
+                    <th>Calificacion</th>
+                </tr>  
+            </thead>
+            <tbody>
+                <tr>
+                    <td><li>Halo4 Forward Unto Dawn</li><hr size=".5" color="Red"></td>
+                    <td>2012</td>
+                    <td><a href="https://www.imdb.com/title/tt2262308/?ref_=nv_sr_srsg_1" target="_blank">⭐⭐⭐⭐⭐⭐⭐</a></td>
+                </tr>
+                <tr>
+                    <td><li>Guardianes de la noche - Kimetsu no Yaiba - La película: Tren Infinito </li><hr size=".5" color="Red"></td>
+                    <td>2020</td>
+                    <td><a href="https://www.imdb.com/title/tt11032374/?ref_=nv_sr_srsg_2" target="_blank">⭐⭐⭐⭐⭐⭐⭐⭐</a></td>
+                </tr>
+                <tr>
+                    <td><li>Hellboy II: El ejército dorado </li><hr size=".5" color="Red"></td>
+                    <td>2008</td>
+                    <td><a href="https://www.imdb.com/title/tt0411477/?ref_=nv_sr_srsg_7" target="_blank">⭐⭐⭐⭐⭐⭐⭐</a></td>
+                </tr>
+                <tr>
+                    <td><li>Historias de miedo para contar en la oscuridad </li><hr size=".5" color="Red"></td>
+                    <td>2019</td>
+                    <td><a href="https://www.imdb.com/title/tt3387520/?ref_=nv_sr_srsg_0" target="_blank">⭐⭐⭐⭐⭐⭐</a></td>
+                </tr>
+                <tr>
+                    <td><li>Why Him? </li><hr size=".5" color="Red"></td>
+                    <td>2016</td>
+                    <td><a href="https://www.imdb.com/title/tt4501244/?ref_=nv_sr_srsg_7" target="_blank">⭐⭐⭐⭐⭐⭐</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <hr size="5" color="Blue">
+
+        <table cellspacing="5">
+       
+            <tr>
+                <td><li>Halo4 Forward Unto Dawn (2012)</li> </td>
+                <td><a href="https://www.imdb.com/title/tt2262308/?ref_=nv_sr_srsg_1" target="_blank">⭐⭐⭐⭐⭐⭐⭐</a></td>
+                        </tr>
+
+            </tr>
+            <tr>
+                <td><li>Guardianes de la noche - Kimetsu no Yaiba - La película: Tren Infinito (2020)</li></td>
+                <td><a href="https://www.imdb.com/title/tt11032374/?ref_=nv_sr_srsg_2" target="_blank">⭐⭐⭐⭐⭐⭐⭐⭐</a></td>
+                        </tr>
+
+            </tr>
+            <tr>
+                <td><li>Hellboy II: El ejército dorado (2008)</li><hr size=".5" color="Red"></td>
+                <td><a href="https://www.imdb.com/title/tt0411477/?ref_=nv_sr_srsg_7" target="_blank">⭐⭐⭐⭐⭐⭐⭐</a></td>
+            </tr>
+            <tr>
+                <td><li>Historias de miedo para contar en la oscuridad (2019)</li><hr size=".5" color="Red"></td>
+                <td><a href="https://www.imdb.com/title/tt3387520/?ref_=nv_sr_srsg_0" target="_blank">⭐⭐⭐⭐⭐⭐</a></td>
+            </tr>
+            <tr>
+                <td><li>Why Him? (2016)</li><hr size=".5" color="Red"></td>
+                <td><a href="https://www.imdb.com/title/tt4501244/?ref_=nv_sr_srsg_7" target="_blank">⭐⭐⭐⭐⭐⭐</a></td>
+            </tr>
+        </table>
+*/
