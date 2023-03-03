@@ -1,155 +1,196 @@
 /********************** Tag Selector *************************/
 body{
-    background-color: #913175;
-    font-family: Arial, Helvetica, sans-serif;
-}
-hr{
-    height: 5px;
-    border-width: 5px;
-    border-style: dotted none none none;
-    height: 20px;
-    width: 95%;
+    margin: 0;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
 
-
-    /********* intento de interlineado con puntos ***************/
-    
-     /*width: thick;
-     height: 5px;
-     -moz-border-radius: 10%;
-     -webkit-border-radius: 10%;
-     border-style: dotted;
-     border-radius: 100%;*/
+    background-color: #20262E;
+    color: #E9E8E8;
 }
 h1{
-    color: #20262E;
-    
+    margin: 0;
+    font-family: 'Share Tech Mono', monospace;
 }
 h2{
-    color: #20262E;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
 }
 h3{
-    color: whitesmoke;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
 }
-p{
-    color: whitesmoke;
-}
-li{
-    color: whitesmoke;
-    list-style: square; /*se la aplica a cualquier tipo de lista*/
-}
-td{
-    color: whitesmoke;
-}
-th{
-    color: whitesmoke;
-}
-a{
-    color: #c2839d;;
-}
-ul{
-    list-style: square; /*solo en especifico que tenga ul*/
+hr{
+    height: 3px;
+    background-color: #E9E8E8;
+
+    border-style: none;
 }
 /******************* Class selection *********************/
-
-/*.chido{
-    background-color: #CD5888;
+.top-container{
+    /*height: 200px;
+    background-color: aquamarine;
+    width: 200px;
+    position: relative;
+    left: 200px;*/
+    background: linear-gradient(#20262E, #CD5888 );
+    /*position: relative;*/
 }
-.what{
-    border-style: dashed;
-    border-width: 2px;
-    border-color: pink;
-}*/
-.tableExperienciaTrabajo{
-    border-style: dotted;
-    border-color: #96D4D4;
+.mid-container{
+   /* height: 200px;
+    background-color: red;
+    padding: 20px;
+    display: inline-block;
+    width: 200px;*/
+    background: linear-gradient( #CD5888,#20262E);
     
 }
-.Skills{
-    border-style: dotted;
-    border-color: #96D4D4;
-    background-color: #c2839d;
+.bot-container{
+   /* height: 200px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    display: inline-block;
+    width: 200px;*/
+    background-color: black;
+    background: linear-gradient(#20262E,#CD5888);
+    height: 500px;
+    margin: 0;
+    padding: 40px 0;
 }
-.Skills2{
-    
-    background-color: #c2839d;
+.mobible{
+   /* height: 220px;
+    background-color: blueviolet;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top:0;*/
+}
 
+.chuleta-top
+{
+    width: 180px;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+}
+.chuleta-bot
+{
+    width: 180px;
+    position: absolute;
+    bottom: -300px;
+    left: 250px;
+}
+.empresa-mid
+{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+.name{
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    font-size: 50px;
+    color: #20262E;
+    background-color: #f0f8ffbf;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+.sub{
+    margin: 0 auto;
+    position: relative;
+    top: 125px;
+    font-size: 25px;
+    color: #b3c2d4;
+}
+.skill-row{
+    display: inline-block;
+    margin: 70px,100px;
+   
+}
+.skill1-img{
+    width: 100px;
+}
+.skill2-img{
+    width: 100px;
+}
+.skill3-img{
+    width: 100px;
+}
+
+
+.software-row{
+    width: 60%;
+    margin: 50px auto;
+}
+
+.software-row:nth-child(even){
+    text-align: left;
+}
+ .software-row:nth-child(odd){
+    text-align: right;
+ }
+ .software-row:nth-child(1){
+    text-align: center;
+}
+
+.software1-img{
+    width: 100px;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: 10px;
+    float: left;
+}
+.software2-img{
+    width: 100px;
+    background-color: white;
+    border-radius: 100%;
+    float: right;
+    margin-top: 20px;
+}
+.footer-hr{
+margin: 0;
+}
+.contact-me{
+
+}
+.get-in-touch{
+    color: #ffffff;
+}
+.copyright{
+    margin:20px 0 0;
+}
+.together{
+    font-family: 'Courier Prime',monospace;
+    margin: 10px 0 20px;
+}
+.together:hover{
+    font-family: cursive;
 }
 /******************** ID Slectionn **********************/
-/*#boss{
-
+.btn {
+    font-family: 'Courier Prime',sans-serif;
+    background: #c034d9;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px ;
+    text-decoration: none;
+   display: inline-block;
+   margin: 10px 0 20px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
     
-    background-color: aqua;
-}*/
+  }
+.footer-link{
+    text-decoration: none;/*Quita el subrrayado del link*/
+    color:#c034d9;
+    margin: 5px 10px 20px;
+}
 
 
-/******************* Otra forma de acomodar las peliculas **********/
-
-/*
-<table cellspacing="5"> <!--tabla/cellspacing espacio entre filas-->
-            <thead>
-                <tr> <!--fila-->
-                    <th>Titulo</th><!--celdas-->
-                    <th>Año</th>
-                    <th>Calificacion</th>
-                </tr>  
-            </thead>
-            <tbody>
-                <tr>
-                    <td><li>Halo4 Forward Unto Dawn</li><hr size=".5" color="Red"></td>
-                    <td>2012</td>
-                    <td><a href="https://www.imdb.com/title/tt2262308/?ref_=nv_sr_srsg_1" target="_blank">⭐⭐⭐⭐⭐⭐⭐</a></td>
-                </tr>
-                <tr>
-                    <td><li>Guardianes de la noche - Kimetsu no Yaiba - La película: Tren Infinito </li><hr size=".5" color="Red"></td>
-                    <td>2020</td>
-                    <td><a href="https://www.imdb.com/title/tt11032374/?ref_=nv_sr_srsg_2" target="_blank">⭐⭐⭐⭐⭐⭐⭐⭐</a></td>
-                </tr>
-                <tr>
-                    <td><li>Hellboy II: El ejército dorado </li><hr size=".5" color="Red"></td>
-                    <td>2008</td>
-                    <td><a href="https://www.imdb.com/title/tt0411477/?ref_=nv_sr_srsg_7" target="_blank">⭐⭐⭐⭐⭐⭐⭐</a></td>
-                </tr>
-                <tr>
-                    <td><li>Historias de miedo para contar en la oscuridad </li><hr size=".5" color="Red"></td>
-                    <td>2019</td>
-                    <td><a href="https://www.imdb.com/title/tt3387520/?ref_=nv_sr_srsg_0" target="_blank">⭐⭐⭐⭐⭐⭐</a></td>
-                </tr>
-                <tr>
-                    <td><li>Why Him? </li><hr size=".5" color="Red"></td>
-                    <td>2016</td>
-                    <td><a href="https://www.imdb.com/title/tt4501244/?ref_=nv_sr_srsg_7" target="_blank">⭐⭐⭐⭐⭐⭐</a></td>
-                </tr>
-            </tbody>
-
-        </table>
-
-        <hr size="5" color="Blue">
-
-        <table cellspacing="5">
-       
-            <tr>
-                <td><li>Halo4 Forward Unto Dawn (2012)</li> </td>
-                <td><a href="https://www.imdb.com/title/tt2262308/?ref_=nv_sr_srsg_1" target="_blank">⭐⭐⭐⭐⭐⭐⭐</a></td>
-                        </tr>
-
-            </tr>
-            <tr>
-                <td><li>Guardianes de la noche - Kimetsu no Yaiba - La película: Tren Infinito (2020)</li></td>
-                <td><a href="https://www.imdb.com/title/tt11032374/?ref_=nv_sr_srsg_2" target="_blank">⭐⭐⭐⭐⭐⭐⭐⭐</a></td>
-                        </tr>
-
-            </tr>
-            <tr>
-                <td><li>Hellboy II: El ejército dorado (2008)</li><hr size=".5" color="Red"></td>
-                <td><a href="https://www.imdb.com/title/tt0411477/?ref_=nv_sr_srsg_7" target="_blank">⭐⭐⭐⭐⭐⭐⭐</a></td>
-            </tr>
-            <tr>
-                <td><li>Historias de miedo para contar en la oscuridad (2019)</li><hr size=".5" color="Red"></td>
-                <td><a href="https://www.imdb.com/title/tt3387520/?ref_=nv_sr_srsg_0" target="_blank">⭐⭐⭐⭐⭐⭐</a></td>
-            </tr>
-            <tr>
-                <td><li>Why Him? (2016)</li><hr size=".5" color="Red"></td>
-                <td><a href="https://www.imdb.com/title/tt4501244/?ref_=nv_sr_srsg_7" target="_blank">⭐⭐⭐⭐⭐⭐</a></td>
-            </tr>
-        </table>
-*/
